@@ -10,7 +10,7 @@ Install the required Python packages: `pip install pandas numpy matplotlib stats
 
 Brent crude oil prices are downloaded automatically using the the FRED API. Get a free API key at [fred.stlouisfed.org](https://fred.stlouisfed.org) and set it as an environment variable before starting Jupyter (`set FRED_API_KEY=yourkey` (Windows) or `export FRED_API_KEY=yourkey` (Mac/Linux)). Then start Jupyter from the same terminal window. 
 
-Core inflation (HICP) data is included in this repository (`estat_prc_hicp_midx.tsv`). It can also be downloaded directly from [Eurostat](https://ec.europa.eu/eurostat/databrowser/product/view/PRC_HICP_MIDX).
+Core inflation (HICP) data is not included in this repository due to file size. Download `estat_prc_hicp_midx.tsv` directly from [Eurostat](https://ec.europa.eu/eurostat/databrowser/product/view/PRC_HICP_MIDX).
 
 ## Usage
 
